@@ -11,41 +11,41 @@
 	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+	<!-- Hero Section -->
 	<section id="hero-section" class="relative w-full h-vid bg-red-300">
+		<!-- Set background cover -->
 		<video src="./images/vid/taryn.mp4" muted loop autoplay class="absolute top-0 left-0 w-full h-vid object-cover"></video>
 		<div class="bg-neutral-900 absolute top-0 left-0 w-full h-vid opacity-50"></div>
 		
-
+		<!-- Set max width & container -->
 		<div class="relative max-w-screen-xl mx-auto">
-			<nav class="container mx-auto p-6 absolute top-0 left-0 w-full z-10 border lg:w-5/6">
-					
+			<!-- Navigation -->
+			<nav class="container mx-auto absolute top-0 left-0 w-full z-10 p-4 lg:w-5/6">
 				<div class="flex items-center justify-between">
-					
+					<!-- Mobile Logo -->
 					<div class="cursor-pointer md:hidden">
 						<a href="">
 							<img src="./images/logo/logo-mobile.svg">
 						</a>
 					</div>
-					
+					<!-- Desktop Logo -->
 					<div class="cursor-pointer hidden md:block">
 						<a href="">
 							<img src="./images/logo/logo-desktop.svg">
 						</a>
 					</div>
-
-			
+					<!-- Menu Items -->
 					<div class="hidden uppercase space-x-8 text-white lg:flex">
 						<a href="" class="text-sm letter-spacing-sm lg:font-semibold lg:hover:border-b-4 border-rose-900 ">Home</a>
 						<a href="" class="text-sm letter-spacing-sm lg:font-semibold lg:hover:border-b-4 border-rose-900 ">About</a>
 						<a href="" class="text-sm letter-spacing-sm lg:font-semibold lg:hover:border-b-4 border-rose-900 ">Hotel & Restaurant Blog</a>
 						<a href="" class="text-sm letter-spacing-sm lg:font-semibold lg:hover:border-b-4 border-rose-900 ">Contact</a>
 					</div>
-
-					
+					<!-- Search -->
 					<div class="hidden lg:flex">
 						<img src="./images/icons/akar-icons_search.svg">
 					</div>
-
+					<!-- Mobile Menu -->
 					<button id="menu-btn" class="block hamburger lg:hidden focus:outline-none">
 						<span class="hamburger-top"></span>
 						<span class="hamburger-middle"></span>
@@ -53,9 +53,9 @@
 					</button>
 				</div>
 			</nav>
-
+			<!-- Hero Section text -->
 			<div class="pt-80 lg:w-5/6">
-				<div class="container relative z-20 flex flex-col items-center mx-auto px-6 justify-between xl:px-10 md:flex-row">
+				<div class="container relative z-20 flex flex-col items-center mx-auto justify-between md:flex-row">
 					<div class="text-white flex flex-col space-y-6 items-center md:w-1/2 md:items-start">
 						<h4 class="text-4xl w-min text-center uppercase font-semibold md:text-left md:text-5xl lg:w-fit">Supercars and roadtrips</h4>
 						<p class="text-center font-thin leading-relaxed letter-spacing-sm w-1/2 md:text-left md:w-auto">Of all the experiences we have had with the supercars, some of the most memorable are the road trips.</p>
@@ -67,6 +67,7 @@
 				</div>
 			</div>
 			
+			<!-- Right Item Design -->
 			<div class="hidden lg:block lg:w-1/6">
 				<div class="bg-zinc-700 w-8 h-vid absolute top-0 z-10 right-12"></div>
 				<div class="absolute top-80 rotate-90 -right-20 space-x-20 text-white">
@@ -78,6 +79,8 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- Latest Post section -->
 	
 	
 	

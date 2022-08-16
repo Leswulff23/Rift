@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/*screen < 360px*/
-@media screen and (max-width: 360px){
-  #hero-section{
-    padding-top: 128px;
-  }
-}
-
 /*pt-64 md:pt-96*/
 /* Hamburger Menu */
 .hamburger {
