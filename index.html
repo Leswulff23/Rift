@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rift</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/slick.css">
+	<link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="./css/swiper-bundle.css">
+</head>
+<body>
+	<section id="hero-section" class="relative w-full h-vid pt-80">
+		<!-- Navbar -->
+		<nav class="container mx-auto p-6 absolute top-0 left-0 w-full lg:w-5/6 z-10 xl:p-10">
+			<!-- Flex container -->
+		    <div class="flex items-center justify-between">
+		    	<!-- Mobile Logo -->
+		    	<div class="cursor-pointer md:hidden">
+			        <a href="">
+			        	<img src="./images/logo/logo-mobile.svg">
+			        </a>
+			    </div>
+			    <!-- Desktop Logo -->
+		    	<div class="cursor-pointer hidden md:block">
+			        <a href="">
+			        	<img src="./images/logo/logo-desktop.svg">
+			        </a>
+			    </div>
+
+			    <!-- Menu Items -->
+			    <!--Menu-->
+			    <div class="hidden uppercase space-x-8 text-white lg:flex">
+			        <a href="" class="text-sm letter-spacing-sm lg:font-semibold lg:hover:border-b-4 border-rose-900 ">Home</a>
+			        <a href="" class="text-sm letter-spacing-sm lg:font-semibold lg:hover:border-b-4 border-rose-900 ">About</a>
+			        <a href="" class="text-sm letter-spacing-sm lg:font-semibold lg:hover:border-b-4 border-rose-900 ">Hotel & Restaurant Blog</a>
+			        <a href="" class="text-sm letter-spacing-sm lg:font-semibold lg:hover:border-b-4 border-rose-900 ">Contact</a>
+		    	</div>
+
+		    	<!-- search -->
+		    	<div class="hidden lg:flex">
+		        	<img src="./images/icons/akar-icons_search.svg">
+		    	</div>
+
+		    	<!-- Hamburger Menu Design-->
+				<button id="menu-btn" class="block hamburger lg:hidden focus:outline-none">
+					<span class="hamburger-top"></span>
+					<span class="hamburger-middle"></span>
+					<span class="hamburger-bottom"></span>
+				</button>
+		    </div>
+		</nav>
+		<video src="./images/vid/taryn.mp4" muted loop autoplay class="absolute top-0 left-0 w-full h-vid object-cover"></video>
+		<!-- background over image -->
+		<div class="bg-neutral-900 absolute top-0 left-0 w-full h-vid opacity-50"></div>
+
+		<!-- Hero Section Content -->
+		<div class="lg:w-5/6">
+			<div class="container relative z-20 flex flex-col items-center mx-auto px-6 md:flex-row justify-between xl:px-10">
+				<div class="text-white flex flex-col space-y-6 items-center md:w-1/2 md:items-start">
+					<h4 class="text-4xl w-min text-center uppercase font-semibold md:text-left md:text-5xl lg:w-fit">Supercars and roadtrips</h4>
+					<p class="text-center font-thin leading-relaxed letter-spacing-sm w-1/2 md:text-left md:w-auto">Of all the experiences we have had with the supercars, some of the most memorable are the road trips.</p>
+					<a href="" class="px-12 p-3 py-4 bg-main-color text-main-color text-sm text-orange-100 uppercase font-semibold letter-spacing-lg hover:bg-rose-900">Read more</a>
+				</div>
+				<div class="hidden rounded-full text-white w-24 h-24 justify-center items-center border rotate-45 border-l-color md:flex">
+					<p class="-rotate-45">Next</p>
+				</div> 
+			</div>
+		</div>
+
+		<div class="hidden lg:block lg:w-1/6">
+			<div class="bg-zinc-700 w-8 h-full absolute z-60 bottom-0 right-0"></div>
+			<div class="absolute top-80 rotate-90 -right-32 space-x-20 text-white">
+				<a href="">Facebook</a>
+				<a href="">Instagram</a>
+				<a href="">Twitter</a>
+			</div>
+			<div class="bg-zinc-700 w-8 h-full absolute bottom-0 right-16"></div>
+		</div>
+	</section>
+	<section class="bg-blue-200">
+		<p>Hello</p>
+	</section>
+
+	
+	
+	<!-- script -->
+	<script type="text/javascript" src="./js/index.js"></script>
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/slick.js"></script>
+	<script type="text/javascript" src="./js/swiper-bundle.js"></script>
+</body>
+</html>	
+
+<!-- 	<section class="absolute top-3/4 mt-32 border">
+	</section> -->
+	 <!-- <div class="container mx-auto p-9 absolute z-10 ">
+	    <div class="flex items-center justify-between w-4/5">
+	 
+	      <div>
+	        <img src="./images/logo/logo-desktop.svg">
+	      </div>
+	      <div class="uppercase space-x-14 text-white">
+	        <a href="">Home</a>
+	        <a href="">About</a>
+	        <a href="">Hotel & Restaurant Blog</a>
+	        <a href="">Contact</a>
+	      </div>
+	      <div>
+	        <img src="./images/icons/akar-icons_search.svg">
+	      </div>
+	    </div>
+	 </div>
+	<section id="hero-section" class="z-0">
+		<video src="./images/vid/taryn.mp4" muted loop autoplay class="absolute top-0 left-0 w-full h-5/6 object-cover"></video>
+		<div class="bg-neutral-900 absolute w-full h-5/6 opacity-50"></div>
+		<div>
+			<div class="bg-zinc-700 w-8 h-full absolute bottom-0 right-0"></div>
+			<div class="absolute top-80 rotate-90 -right-32 space-x-20 text-white">
+				<a href="">Facebook</a>
+				<a href="">Instagram</a>
+				<a href="">Twitter</a>
+			</div>
+			<div class="bg-zinc-700 w-8 h-full absolute bottom-0 right-16"></div>
+		</div>
+	</section> -->
