@@ -88,3 +88,9 @@
 .bg-main-hover:hover{
   background-color: #602831;
 }
+
+/* Latest Section left content bg */
+.lt-bg{
+  width: 1014px;
+  height: 1003px;
+}
