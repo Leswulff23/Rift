@@ -59,7 +59,7 @@
 					<div class="text-white flex flex-col space-y-6 items-center md:w-1/2 md:items-start">
 						<h4 class="text-4xl w-min text-center uppercase font-semibold md:text-left md:text-5xl lg:w-fit letter-spacing-sm">Supercars and roadtrips</h4>
 						<p class="text-center font-thin leading-relaxed letter-spacing-sm w-1/2 md:text-left md:w-auto">Of all the experiences we have had with the supercars, some of the most memorable are the road trips.</p>
-						<a href="" class="px-6 p-3 py-4 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg hover:bg-rose-900">Read more</a>
+						<a href="" class="px-6 p-3 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg hover:bg-rose-900">Read more</a>
 					</div>
 					<div class="hidden rounded-full text-white w-24 h-24 justify-center items-center border rotate-45 border-l-color md:flex">
 						<p class="-rotate-45">Next</p>
@@ -69,53 +69,87 @@
 			
 			<!-- Right Item Design -->
 			<div class="hidden lg:block lg:w-1/6">
-				<div class="bg-zinc-700 w-8 h-vid absolute top-0 z-10 right-12"></div>
-				<div class="absolute top-80 rotate-90 -right-20 space-x-20 text-white">
+				<div class="bg-zinc-700 w-8 h-vid absolute top-0 z-10 right-24"></div>
+				<div class="absolute top-80 rotate-90 -right-28 space-x-20 text-white">
 					<a href="" class="letter-spacing-sm">Facebook</a>
 					<a href="" class="letter-spacing-sm">Instagram</a>
 					<a href="" class="letter-spacing-sm">Twitter</a>
 				</div>
-				<div class="bg-zinc-700 w-8 h-vid absolute top-0 right-32"></div>
+				<div class="bg-zinc-700 w-8 h-vid absolute top-0 right-4"></div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Latest Post section -->
-	<section id="latest-section" class="bg-neutral-200">
+	<section id="latest-section" class="relative bg-neutral-200">
+		<div class="bg-white absolute top-0 left-0 w-10/12 h-1/6 md:h-3/4 md:w-9/12"></div>
 	
 		<div class="relative max-w-screen-xl mx-auto">
 
-			<div class="p-4 space-y-16 flex flex-col">
+			<div class="relative p-4 space-y-16 flex flex-col">
 				<div class="pt-8">
-					<h4 class="text-sm uppercase text-left font-semibold letter-spacing-sm">The Latest Posts</h4>
+					<h4 class="text-sm uppercase text-left font-semibold letter-spacing-sm md:text-md">The Latest Posts</h4>
+					<div class="hidden absolute top-20 right-24 rounded-full text-white w-20 h-20 justify-center items-center border rotate-45 border-gray-500 md:flex">
+						<p class="-rotate-45 text-gray-500 w-10 text-center text-xs">View All</p>
+					</div>
 				</div>
-				<div class="space-y-6">
-					<video src="./images/vid/production.mp4" muted loop autoplay></video>
-					<p class="pt-10 text-gray-500 text-left">11 Aug 2022</p>
-					<h4 class="letter-spacing-sm text-3xl uppercase font-semibold w-72">What we've experienced when travelling</h4>
-					<p class="leading-relaxed text-gray-500 w-4/5 font-light">Of all the experiences we have had with the supercars, some of the most memorable are the road trips.</p>
-					
-					<div class="flex space-x-3 items-center">
-						<div class="flex space-x-1">
-							<img src="./images/icons/akar-icons_star_mobile.svg">
-							<p>5</p>
+				<div class="md:flex md:flex-column md:flex-row-reverse space-y-4 items-center">
+					<div class="md:w-3/4 lg:w-2/4">
+						<video src="./images/vid/production.mp4" muted loop autoplay class="md:w-full"></video>
+					</div>
+					<div class="space-y-6">
+						<p class="pt-10 text-gray-500 text-left text-xs font-semibold">11 Aug 2022</p>
+						<h4 class="letter-spacing-sm text-3xl uppercase font-semibold w-72">What we've experienced when travelling</h4>
+						<p class="leading-relaxed text-gray-500 w-4/5 font-light">Of all the experiences we have had with the supercars, some of the most memorable are the road trips.</p>
+						<div class="md:flex md:flex-row-reverse md:justify-between md:items-center">
+							<div class="flex space-x-3 items-center">
+								<div class="flex space-x-1">
+									<img src="./images/icons/akar-icons_star_mobile.svg">
+									<p class="text-sm font-bold">5</p>
+								</div>
+								<p class="letter-spacing-lg uppercase text-gray-500 text-sm">Rift</p>
+							</div>
+							<div class="hidden w-0.5 h-12 bg-gray-400 md:flex"></div>
+							<div class="py-8">
+								<a href="" class="px-6 p-3 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg hover:bg-rose-900">Read more</a>
+							</div>
 						</div>
-						<p class="letter-spacing-lg uppercase text-gray-500 text-sm">Rift</p>
 					</div>
-					<div class="py-10">
-						<a href="" class="px-6 p-3 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg hover:bg-rose-900">Read more</a>
-					</div>
-					<div class="flex flex-col justify-center items-center space-y-6">
-						<div class="w-full h-56">
+				</div>
+				<div class="flex flex-col md:flex-row md:space-x-6">
+					<div class="flex flex-col justify-center items-center space-y-6 py-6 md:py-0 md:items-start">
+						<div class="w-full h-56 md:h-32">
 							<img src="./images/lt-pexel-1.jpeg" class="w-full h-full object-cover">
 						</div>
-						<p class="text-gray-500">11 Aug 2022</p>
-						<h4 class="letter-spacing-sm leading-relaxed font-semibold w-1/2 text-center">MCLAREN 675LT SPIDER VS. PORSCHE 911 GT3 RS</h4>
+						<p class="text-gray-500 text-xs font-semibold">11 Aug 2022</p>
+						<h4 class="letter-spacing-sm leading-relaxed font-semibold w-1/2 text-center md:text-left md:w-3/4">MCLAREN 675LT SPIDER VS. PORSCHE 911 GT3 RS</h4>
 						<div class="flex flex-row items-center space-x-3">
 							<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
 							<div class="w-8 h-0.5 bg-rose-900"></div>
 						</div>
 					</div>
+					<div class="hidden md:flex flex-col justify-center items-center space-y-6 py-6 md:py-0 md:items-start md:mt-16">
+						<div class="w-full h-56 md:h-32">
+							<img src="./images/lt-pexel-1.jpeg" class="w-full h-full object-cover">
+						</div>
+						<p class="text-gray-500 text-xs font-semibold">11 Aug 2022</p>
+						<h4 class="letter-spacing-sm leading-relaxed font-semibold w-1/2 text-center md:text-left md:w-3/4">MCLAREN 675LT SPIDER VS. PORSCHE 911 GT3 RS</h4>
+						<div class="flex flex-row items-center space-x-3">
+							<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
+							<div class="w-8 h-0.5 bg-rose-900"></div>
+						</div>
+					</div> 
+					<div class="hidden md:flex flex-col justify-center items-center space-y-6 py-6 md:py-0 md:items-start">
+						<div class="w-full h-56 md:h-32">
+							<img src="./images/lt-pexel-1.jpeg" class="w-full h-full object-cover">
+						</div>
+						<p class="text-gray-500 text-xs font-semibold">11 Aug 2022</p>
+						<h4 class="letter-spacing-sm leading-relaxed font-semibold w-1/2 text-center md:text-left md:w-3/4">MCLAREN 675LT SPIDER VS. PORSCHE 911 GT3 RS</h4>
+						<div class="flex flex-row items-center space-x-3">
+							<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
+							<div class="w-8 h-0.5 bg-rose-900"></div>
+						</div>
+					</div> 
 				</div>
 			</div>
 		</div>
