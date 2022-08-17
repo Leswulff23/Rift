@@ -646,6 +646,14 @@ video {
   height: 6rem;
 }
 
+.h-96 {
+  height: 24rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -778,6 +786,14 @@ video {
 
 .pt-80 {
   padding-top: 20rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-center {
@@ -992,6 +1008,10 @@ video {
 
   .lg\:w-1\/6 {
     width: 16.666667%;
+  }
+
+  .lg\:flex-col-reverse {
+    flex-direction: column-reverse;
   }
 
   .lg\:font-semibold {
