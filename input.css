@@ -93,3 +93,11 @@
   width: 1014px;
   height: 1003px;
 }
+
+/*About Section linear gradient*/
+.bg-grad-r{
+  height: 741px;
+  background: linear-gradient(to left, rgba(55, 54, 57,0) 1%,rgb(55, 54, 57) 85%); 
+}
+
+
