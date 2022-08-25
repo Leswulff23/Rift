@@ -100,4 +100,9 @@
   background: linear-gradient(to left, rgba(55, 54, 57,0) 1%,rgb(55, 54, 57) 85%); 
 }
 
+/*About bg Height*/
+.h-about{
+  height: 473px;
+}
+
 
