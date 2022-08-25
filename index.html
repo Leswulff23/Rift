@@ -22,7 +22,7 @@
 		<!-- Set max width & container -->
 		<div class="relative max-w-screen-xl mx-auto">
 			<!-- Navigation -->
-			<nav class="container mx-auto absolute top-0 left-0 w-full z-10 p-4 lg:w-5/6">
+			<nav class="container mx-auto absolute top-0 left-0 w-full z-10 px-4 py-10 lg:w-5/6">
 				<div class="flex items-center justify-between">
 					<!-- Mobile Logo -->
 					<div class="cursor-pointer md:hidden">
@@ -89,12 +89,27 @@
  
 		<!-- Container -->
 		<div class="relative max-w-screen-xl mx-auto">
-			<div class="relative p-4 space-y-16 flex flex-col">
+			<div class="relative space-y-16 flex flex-col px-4 py-10">
+				
+				<div class= "hidden space-x-10 flex flex-row lg:w-5/6 lg:flex ">	
+					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">All</div>
+					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">Aston Martin</div>
+					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">Bentley</div>
+					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">Ferrari</div>
+					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">Jaguar</div>
+					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">McLaren</div>
+					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">Porsche</div>
+					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">SCG</div>
+					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">Supercar Blogs</div>
+					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">Workshop</div>
+				</div>
+
 				<!-- Right Item Design -->
 				<div class="hidden lg:block lg:w-1/6">
-					<div class="bg-zinc-700 w-8 h-60 absolute top-8 right-24 lg:h-56"></div>
-					<div class="bg-zinc-700 w-8 h-60 absolute top-8 right-4 lg:h-56"></div>
+					<div class="bg-zinc-700 w-8 absolute top-8 right-24 lg:h-96"></div>
+					<div class="bg-zinc-700 w-8 absolute top-8 right-4 lg:h-96"></div>
 				</div>
+				
 				<!-- Top Content -->
 				<h4 class="text-sm uppercase text-left font-semibold letter-spacing-sm md:text-md">The Latest Posts</h4>
 			
@@ -103,8 +118,8 @@
 					<div class="md:w-3/4 xl:w-7/12 relative">
 						<video src="./images/vid/production.mp4" muted loop autoplay class="md:w-full"></video>
 						<div class="hidden lg:block lg:w-1/6">
-							<div class="bg-zinc-700 w-8 h-60 absolute top-0 right-20 lg:h-full"></div>
-							<div class="bg-zinc-700 w-8 h-60 absolute top-0 right-0 lg:h-full"></div>
+							<div class="bg-zinc-700 w-8 absolute top-0 right-20 lg:h-full"></div>
+							<div class="bg-zinc-700 w-8 absolute top-0 right-0 lg:h-full"></div>
 						</div>
 					</div>
 					<div class="space-y-6">
@@ -170,20 +185,30 @@
 	<section id="about-section" class="relative h-vid">
 		<img src="./images/about-bg.jpeg" class="absolute top-0 left-0 w-full h-vid object-cover" alt="">
 		<div class=" absolute top-0 left-0 w-full h-vid bg-grad-r"></div>
-		<div class="relative max-w-screen-xl mx-auto text-white p-4">
-			<div class="flex space-x-16">
-				<div>
-					<h4 class="text-sm uppercase text-left font-semibold letter-spacing-sm md:text-md">About Rift</h4>			
-					<div class="w-full h-56 md:h-32 lg:h-48 xl:w-80">
-						<img src="./images/lt-pexel-3.jpg" class="w-full h-full object-cover">
+		<div class="relative max-w-screen-xl mx-auto text-white">
+			<div class="flex flex-col px-4 py-10">	
+				<div class="flex flex-col space-y-10 lg:flex-row lg:space-x-16">
+					<div class="space-y-20">
+						<div>
+							<h4 class="text-sm uppercase text-left font-semibold letter-spacing-sm md:text-md mb-6">About Rift</h4>			
+							<div class="w-full h-56 md:h-32 lg:h-48 xl:w-80">
+								<img src="./images/about-pic.jpeg" class="w-full h-full object-cover">
+							</div>
+						</div>
+						<div class="hidden md:block">
+							<div class="">
+								<h4 class="text-sm uppercase text-left font-semibold letter-spacing-sm md:text-md mb-6">Secret supercar owners</h4>			
+								<p class="text-left letter-spacing-sm leading-relaxed font-light w-fit text-gray-300 lg:w-56"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maecenas augue in fames. Vitae imperdiet sit porta non duis nunc, habitasse feugiat fermentum.</p>	
+							</div>
+						</div>
+						
+
+					</div>
+					<div class="">
+						<h4 class="text-sm uppercase text-left font-semibold letter-spacing-sm md:text-md mb-6">Rift</h4>			
+						<p class="text-left leading-relaxed font-light w-fit text-gray-300 lg:w-56"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maecenas augue in fames. Vitae imperdiet sit porta non duis nunc, habitasse feugiat fermentum.</p>	
 					</div>
 				</div>
-				<div>
-					<h4 class="text-sm uppercase text-left font-semibold letter-spacing-sm md:text-md">Rift</h4>
-					<p class="text-left letter-spacing-sm leading-relaxed font-light w-56 "> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maecenas augue in fames. Vitae imperdiet sit porta non duis nunc, habitasse feugiat fermentum.</p>	
-
-				</div>
-
 			</div>
 		</div>
 
@@ -200,30 +225,3 @@
 	<script type="text/javascript" src="./js/swiper-bundle.js"></script>
 </body>
 </html>	
-
-		
-
-<!-- 
-	border-2 border-red-900
-			<div class="bg-white absolute top-0 left-0 lt-bg opacity-50"></div>
-
-
-			<div class="p-8 space-x-10 flex flex-row lg:w-5/6 ">	
-				<div class="text-gray-800 hover:border-b-4 border-rose-900">All</div>
-				<div class="text-gray-800 hover:border-b-4 border-rose-900">Aston Martin</div>
-				<div class="text-gray-800 hover:border-b-4 border-rose-900">Bentley</div>
-				<div class="text-gray-800 hover:border-b-4 border-rose-900">Ferrari</div>
-				<div class="text-gray-800 hover:border-b-4 border-rose-900">Jaguar</div>
-				<div class="text-gray-800 hover:border-b-4 border-rose-900">McLaren</div>
-				<div class="text-gray-800 hover:border-b-4 border-rose-900">Porsche</div>
-				<div class="text-gray-800 hover:border-b-4 border-rose-900">SCG</div>
-				<div class="text-gray-800 hover:border-b-4 border-rose-900">Supercar Blogs</div>
-				<div class="text-gray-800 hover:border-b-4 border-rose-900">Workshop</div>
-			</div>
-			
-			
-		
-			<div class="hidden lg:block lg:w-1/6">
-				<div class="bg-zinc-700 w-8 h-60 absolute top-8 z-10 right-12"></div>
-				<div class="bg-zinc-700 w-8 h-60 absolute top-8 right-32"></div>
-			</div> -->
