@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/animate.css">
 	<script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body id="luxy">
 	<!-- Hero Section -->
 	<section id="hero-section" class="w-full h-vid">
 		<!-- Set background cover -->
@@ -410,9 +410,16 @@
 	<script type="text/javascript" src="./js/index.js"></script>
 	<script type="text/javascript" src="./js/jquery.js"></script>
 	<script type="text/javascript" src="./js/scroll-out.js"></script>
+	<script type="text/javascript" src="./js/luxy.js"></script>
 	<script type="text/javascript">
 		ScrollOut({
 			targets: "h4"
+		});
+	</script>
+	<script>
+		luxy.init({
+			wrapper: '#luxy',
+			wrapperSpeed:  0.08
 		});
 	</script>
 	<script type="text/javascript" src="./js/swiper-bundle.js"></script>
