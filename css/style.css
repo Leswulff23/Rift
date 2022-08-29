@@ -1441,19 +1441,21 @@ video {
   }
 }
 
+
+/* 
 [data-scroll]{
   transition:  all 1s;
 }
 
 #hero-header[data-scroll="in"]{
   transition: 1s;
-  transform:  translateY(0);
+  transform:  translateY(1600px);
   opacity:  1;
 }
 
 #hero-header[data-scroll="out"]{
   transition: 1s;
-  transform:  translateY(-50px);
+  transform:  translateY(0px);
   opacity:  0;
-}
+} */
 
