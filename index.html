@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/swiper-bundle.css">
 	<script src="https://cdn.tailwindcss.com"></script>
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"> 
-<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+	<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
 </head>
 <body>
 	
@@ -85,7 +84,7 @@
 	<!-- Latest Post section -->
 	<section id="latest-section" class="relative bg-neutral-200">
 		<!-- White background -->
-		<div class="bg-white absolute top-0 left-0 w-10/12 h-1/6 md:h-3/4 md:w-9/12"></div>
+		<div class="bg-white absolute top-0 left-0 w-10/12 h-1/6 md:h-3/4 md:w-9/12 xl:w-8/12"></div>
  
 		<!-- Container -->
 		<div class="relative max-w-screen-xl mx-auto">
@@ -371,7 +370,7 @@
 				<h4 class="text-sm uppercase text-center font-semibold letter-spacing-sm md:text-md md:text-left">Newsletter</h4>
 				<div class="flex flex-col space-y-8 md:flex-row md:justify-between md:space-y-0 mt-8">
 					<form action="">
-						<div class="flex space-x-3">
+						<div class="flex flex-col space-y-10 md:flex-row md:space-x-3">
 							<input class="uppercase text-sm bg-transparent border-b-2 border-zinc-400 text-zinc-400 p-2" type="text" name="" placeholder="your email">
 							<button class="px-6 p-3 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg hover:bg-rose-900">Send</button>
 						</div>
