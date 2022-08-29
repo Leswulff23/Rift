@@ -1441,5 +1441,19 @@ video {
   }
 }
 
+[data-scroll]{
+  transistion:  all 1s;
+}
 
+h4[data-scroll="in"]{
+  transition: 1s;
+  transform:  translateY(0);
+  opacity:  1;
+}
+
+h4[data-scroll="out"]{
+  transition: 1s;
+  transform:  translateY(200px);
+  opacity:  1;
+}
 

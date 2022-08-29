@@ -6,12 +6,10 @@
 	<title>Rift</title>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<link rel="stylesheet" type="text/css" href="./css/swiper-bundle.css">
+	<link rel="stylesheet" type="text/css" href="./css/animate.css">
 	<script src="https://cdn.tailwindcss.com"></script>
-
-	<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
 </head>
 <body>
-	
 	<!-- Hero Section -->
 	<section id="hero-section" class="w-full h-vid">
 		<!-- Set background cover -->
@@ -37,7 +35,7 @@
 					</div>
 					<!-- Menu Items -->
 					<div class="hidden uppercase space-x-8 text-white lg:flex">
-						<a href="" class="text-sm letter-spacing-sm lg:font-semibold lg:hover:border-b-4 border-rose-900 ">Home</a>
+						<a href="" class="text-sm letter-spacing-sm font-semibold :hover:border-b-4 border-rose-900 ">Home</a>
 						<a href="" class="text-sm letter-spacing-sm lg:font-semibold lg:hover:border-b-4 border-rose-900 ">About</a>
 						<a href="" class="text-sm letter-spacing-sm lg:font-semibold lg:hover:border-b-4 border-rose-900 ">Hotel & Restaurant Blog</a>
 						<a href="" class="text-sm letter-spacing-sm lg:font-semibold lg:hover:border-b-4 border-rose-900 ">Contact</a>
@@ -60,7 +58,7 @@
 					<div class="text-white flex flex-col space-y-6 items-center md:w-1/2 md:items-start">
 						<h4 class="text-4xl w-min text-center uppercase font-semibold md:text-left md:text-5xl lg:w-fit letter-spacing-sm">Supercars and roadtrips</h4>
 						<p class="text-center font-thin leading-relaxed letter-spacing-sm w-1/2 md:text-left md:w-auto">Of all the experiences we have had with the supercars, some of the most memorable are the road trips.</p>
-						<a href="" class="px-6 p-3 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg hover:bg-rose-900">Read more</a>
+						<button href="" class="px-6 p-3 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-rose-900">Read more</button>
 					</div>
 					<div class="hidden rounded-full text-white w-24 h-24 justify-center items-center border rotate-45 border-l-color md:flex">
 						<p class="-rotate-45">Next</p>
@@ -111,6 +109,8 @@
 				
 				<!-- Top Content -->
 				<h4 class="text-sm uppercase text-left font-semibold letter-spacing-sm md:text-md">The Latest Posts</h4>
+
+					<h1 class="animate__animated animate__bounce">An animated element</h1>
 			
 				<!-- Middle Content -->
 				<div class="md:flex md:flex-column md:flex-row-reverse md:justify-between space-y-4 items-center ">
@@ -135,7 +135,7 @@
 							</div>
 							<div class="hidden w-0.5 h-12 bg-gray-400 md:flex"></div>
 							<div class="py-8">
-								<a href="" class="px-6 p-3 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg hover:bg-rose-900">Read more</a>
+								<button href="" class="px-6 p-3 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-rose-900">Read more</button>
 							</div>
 						</div>
 					</div>
@@ -353,7 +353,7 @@
 					</div>
 					<div class="flex flex-col items-center md:flex-row md:justify-between">
 						<div class="">
-							<a href="" class="px-6 p-3 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg hover:bg-rose-900">Read more</a>
+							<button href="" class="px-6 p-3 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-rose-900">Read more</button>
 						</div>
 						<div class=" hidden flex-row items-center justify-center space-x-3 md:flex">
 							<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Watch All</a>
@@ -372,7 +372,7 @@
 					<form action="">
 						<div class="flex flex-col space-y-10 md:flex-row md:space-x-3">
 							<input class="uppercase text-sm bg-transparent border-b-2 border-zinc-400 text-zinc-400 p-2" type="text" name="" placeholder="your email">
-							<button class="px-6 p-3 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg hover:bg-rose-900">Send</button>
+							<button class="px-6 p-3 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-rose-900">Send</button>
 						</div>
 					</form>
 					<div class="md:flex md:flex-row-reverse md:space-x-reverse md:space-x-24 lg:space-x-reverse lg:space-x-36">
@@ -409,6 +409,12 @@
 	<!-- script -->
 	<script type="text/javascript" src="./js/index.js"></script>
 	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/scroll-out.js"></script>
+	<script type="text/javascript">
+		ScrollOut({
+			targets: "h4"
+		});
+	</script>
 	<script type="text/javascript" src="./js/swiper-bundle.js"></script>
 	<script type="text/javascript">
       var swiper = new Swiper(".mySwiper", {
