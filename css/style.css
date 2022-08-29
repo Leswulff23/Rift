@@ -1442,18 +1442,18 @@ video {
 }
 
 [data-scroll]{
-  transistion:  all 1s;
+  transition:  all 1s;
 }
 
-h4[data-scroll="in"]{
+#hero-header[data-scroll="in"]{
   transition: 1s;
   transform:  translateY(0);
   opacity:  1;
 }
 
-h4[data-scroll="out"]{
+#hero-header[data-scroll="out"]{
   transition: 1s;
-  transform:  translateY(200px);
-  opacity:  1;
+  transform:  translateY(-50px);
+  opacity:  0;
 }
 
