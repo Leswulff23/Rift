@@ -65,353 +65,418 @@
 					</div> 
 				</div>
 			</div>
+
+	<div id="luxy">
+		<!-- Hero Section -->
+		<section id="hero-section" class="w-full h-vid">
+			<!-- Set background cover -->
+			<video src="./images/vid/taryn.mp4" muted loop autoplay class="absolute top-0 left-0 w-full h-vid object-cover"></video>
+			<div class="bg-neutral-900 absolute top-0 left-0 w-full h-vid opacity-50"></div>
 			
-			<!-- Right Item Design -->
-			<div class="hidden lg:block lg:w-1/6">
-				<div class="bg-zinc-700 w-8 h-vid absolute top-0 right-24"></div>
-				<div class="absolute top-80 rotate-90 -right-28 space-x-20 text-white">
-					<a href="" class="letter-spacing-sm">Facebook</a>
-					<a href="" class="letter-spacing-sm">Instagram</a>
-					<a href="" class="letter-spacing-sm">Twitter</a>
-				</div>
-				<div class="bg-zinc-700 w-8 h-vid absolute top-0 right-4"></div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Latest Post section -->
-	<section id="latest-section" class="relative bg-neutral-200">
-		<!-- White background -->
-		<div class="bg-white absolute top-0 left-0 w-10/12 h-1/6 md:h-3/4 md:w-9/12 xl:w-8/12"></div>
- 
-		<!-- Container -->
-		<div class="relative max-w-screen-xl mx-auto">
-			<div class="relative space-y-16 flex flex-col px-4 py-10">
-				
-				<div class= "hidden space-x-10 flex flex-row lg:w-5/6 lg:flex ">	
-					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">All</div>
-					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">Aston Martins</div>
-					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">Bentley</div>
-					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">Ferrari</div>
-					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">Jaguar</div>
-					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">McLaren</div>
-					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">Porsche</div>
-					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">SCG</div>
-					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">Supercar Blogs</div>
-					<div class="text-gray-800 hover:border-b-4 border-rose-900 font-semibold text-sm">Workshop</div>
-				</div>
-
-				<!-- Right Item Design -->
-				<div class="hidden lg:block lg:w-1/6">
-					<div class="bg-zinc-700 w-8 absolute top-8 right-24 lg:h-96"></div>
-					<div class="bg-zinc-700 w-8 absolute top-8 right-4 lg:h-96"></div>
-				</div>
-				
-				<!-- Top Content -->
-				<h4 class="text-sm uppercase text-left font-semibold letter-spacing-sm md:text-md">The Latest Posts</h4>
-			
-				<!-- Middle Content -->
-				<div class="md:flex md:flex-column md:flex-row-reverse md:justify-between space-y-4 items-center ">
-					<div class="md:w-3/4 xl:w-7/12 relative">
-						<video src="./images/vid/production.mp4" muted loop autoplay class="md:w-full"></video>
-						<div class="hidden lg:block lg:w-1/6">
-							<div class="bg-zinc-700 w-8 absolute top-0 right-20 lg:h-full"></div>
-							<div class="bg-zinc-700 w-8 absolute top-0 right-0 lg:h-full"></div>
+			<!-- Set max width & container -->
+			<div class="relative max-w-screen-xl mx-auto">
+				<!-- Navigation -->
+				<nav class="container mx-auto absolute top-0 left-0 w-full z-10 px-4 py-10 lg:w-5/6">
+					<div class="flex items-center justify-between">
+						<!-- Mobile Logo -->
+						<div class="cursor-pointer md:hidden">
+							<a href="">
+								<img src="./images/logo/logo-mobile.svg">
+							</a>
 						</div>
+						<!-- Desktop Logo -->
+						<div class="cursor-pointer hidden md:block">
+							<a href="">
+								<img src="./images/logo/logo-desktop.svg">
+							</a>
+						</div>
+						<!-- Menu Items -->
+						<div class="hidden uppercase space-x-8 text-white lg:flex">
+							<a href="" class="text-sm letter-spacing-sm font-semibold ">Home</a>
+							<a href="" class="text-sm letter-spacing-sm font-semibold">About</a>
+							<a href=""ass="text-sm letter-spacing-sm font-semibold">Hotel & Restaurant Blog</a>
+							<a href="" class="text-sm letter-spacing-sm font-semibold">Contact</a>
+						</div>
+						<!-- Search -->
+						<div class="hidden lg:flex">
+							<img src="./images/icons/akar-icons_search.svg">
+						</div>
+						<!-- Mobile Menu -->
+						<button id="menu-btn" class="block hamburger lg:hidden focus:outline-none">
+							<span class="hamburger-top"></span>
+							<span class="hamburger-middle"></span>
+							<span class="hamburger-bottom"></span>
+						</button>
 					</div>
-					<div class="space-y-6">
-						<p class="pt-10 text-gray-500 text-left text-xs font-semibold">11 Aug 2022</p>
-						<h4 class="letter-spacing-sm text-3xl uppercase font-semibold w-72 xl:w-fit">What we've experienced when travelling</h4>
-						<p class="leading-relaxed text-gray-500 w-4/5 font-light">Of all the experiences we have had with the supercars, some of the most memorable are the road trips.</p>
-						<div class="md:flex md:flex-row-reverse md:justify-between md:items-center lg:w-9/12">
-							<div class="flex space-x-3 items-center">
-								<div class="flex space-x-1">
-									<img src="./images/icons/akar-icons_star_mobile.svg">
-									<p class="text-sm font-bold">5</p>
-								</div>
-								<p class="letter-spacing-lg uppercase text-gray-500 text-sm">Rift</p>
-							</div>
-							<div class="hidden w-0.5 h-12 bg-gray-400 md:flex"></div>
-							<div class="py-8">
-								<button href="" class="px-6 p-3 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-rose-900">Read more</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Last Content -->
-				<div class="flex flex-col md:flex-row md:justify-between md:space-x-6">
-					<div class="flex flex-col justify-center items-center space-y-6 py-6 md:py-0 md:items-start">
-						<div class="w-full h-56 md:h-32 lg:h-48 xl:w-96 xl:h-56">
-							<img src="./images/lt-pexel-1.jpeg" class="w-full h-full object-cover">
-						</div>
-						<p class="text-gray-500 text-xs font-semibold">11 Aug 2022</p>
-						<h4 class="letter-spacing-sm leading-relaxed font-semibold w-1/2 text-center md:text-left md:w-3/4">MCLAREN 675LT SPIDER VS. PORSCHE 911 GT3 RS</h4>
-						<div class="flex flex-row items-center space-x-3">
-							<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
-							<div class="w-8 h-0.5 bg-rose-900"></div>
-						</div>
-					</div>
-					<div class="hidden md:flex flex-col justify-center items-center space-y-6 py-6 md:py-0 md:items-start md:mt-16">
-						<div class="w-full h-56 md:h-32 lg:h-48 xl:w-96 xl:h-56">
-							<img src="./images/lt-pexel-2.jpeg" class="w-full h-full object-cover">
-						</div>
-						<p class="text-gray-500 text-xs font-semibold">11 Aug 2022</p>
-						<h4 class="letter-spacing-sm leading-relaxed font-semibold w-1/2 text-center md:text-left md:w-3/4">MCLAREN 675LT SPIDER VS. PORSCHE 911 GT3 RS</h4>
-						<div class="flex flex-row items-center space-x-3">
-							<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
-							<div class="w-8 h-0.5 bg-rose-900"></div>
-						</div>
-					</div> 
-					<div class="hidden md:flex flex-col justify-center items-center space-y-6 py-6 md:py-0 md:items-start">
-						<div class="w-full h-56 md:h-32 lg:h-48 xl:w-96 xl:h-56">
-							<img src="./images/lt-pexel-3.jpg" class="w-full h-full object-cover">
-						</div>
-						<p class="text-gray-500 text-xs font-semibold">11 Aug 2022</p>
-						<h4 class="letter-spacing-sm leading-relaxed font-semibold w-1/2 text-center md:text-left md:w-3/4">MCLAREN 675LT SPIDER VS. PORSCHE 911 GT3 RS</h4>
-						<div class="flex flex-row items-center space-x-3">
-							<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
-							<div class="w-8 h-0.5 bg-rose-900"></div>
-						</div>
-					</div> 
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- About Section -->
-	<section id="about-section" class="relative h-about md:h-full">
-		<!-- About bg -->
-		<img src="./images/about-bg.jpeg" class="absolute top-0 left-0 w-full h-about object-cover md:h-full" alt="">
-		<!-- Background cover on bg -->
-		<div class="absolute top-0 left-0 w-full h-about bg-grad-r md:h-full"></div>
-		<!-- Container -->
-		<div class="relative max-w-screen-xl mx-auto text-white">
-			<div class="px-4 py-10">	
-				<!-- Flex Container Top -->
-				<div class="flex flex-col space-y-6 md:flex-row md:space-y-10 md:space-x-16 md:mb-6 lg:mb-12">
-					<div>
-						<h4 class="text-sm uppercase text-left font-semibold letter-spacing-sm md:text-md mb-5">About Rift</h4>			
-						<div class="w-full h-56 md:h-36 md:w-56 lg:h-48 xl:w-80">
-							<img src="./images/about-pic.jpeg" class="w-full h-full object-cover">
-						</div>
-					</div>
-					<div class="">
-						<h4 class="hidden text-sm uppercase text-left font-semibold letter-spacing-sm md:block md:text-md">Rift</h4>			
-						<p class="text-left leading-relaxed font-light w-fit text-gray-300 md:w-52 lg:w-56"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maecenas augue in fames. Vitae imperdiet sit porta non duis nunc, habitasse feugiat fermentums.</p>	
-					</div>
-				</div>
-				<!-- Second Content -->
-				<div class="hidden md:flex justify-between w-full relative">
-					<div class="">
-						<h4 class="text-sm uppercase text-left font-semibold letter-spacing-sm md:text-md mb-5">Secret supercar owners</h4>			
-						<p class="text-left letter-spacing-sm leading-relaxed font-light w-fit text-gray-300 md:w-56 lg:w-56"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maecenas augue in fames. Vitae imperdiet sit porta non duis nunc, habitasse feugiat fermentum.</p>
-					</div>
-					<div class="-space-x-20">
-						<div class="w-36 h-52 lg:w-40 lg:h-56  xl:h-60">
-							<img src="./images/abt-pic-1.jpeg" class="w-full h-full object-cover">
-						</div>
-						<div class="w-24 h-24 lg:w-28 lg:h-28 -rotate-12">
-							<img src="./images/abt-pic-2.jpeg" class="w-full h-full object-cover">
-						</div>
-					</div>
-				
-					<img src="./images/path_rate_768.svg" class="hidden absolute top-28 left-24 bottom-0 md:block lg:hidden " alt="">
-					<img src="./images/path_rate_1024.svg" class="hidden absolute top-12 left-36 bottom-0 lg:block xl:hidden" alt="">
-					<img src="./images/path_rate_lg.svg" class="hidden absolute top-14 left-20 bottom-0 xl:block" alt="">
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Most Popular Section -->
-	<section id="popular-section" class="">
-
-		<div class="relative max-w-screen-xl mx-auto">
-			<div class="px-4 py-10">
-				<h4 class="text-sm uppercase text-left font-semibold letter-spacing-sm md:text-md">The Most Popular</h4>
-
-				<div class="py-16">
-					<!-- Swiper -->
-			    <div class="swiper mySwiper">
-		      	<div class="swiper-wrapper">
-			        <div class="swiper-slide space-y-8">
-			        	<div class="w-full h-56 lg:h-48 xl:h-56">
-									<img src="./images/lt-pexel-1.jpeg" class="w-full h-full object-cover">
-								</div>
-								<div class="flex justify-between">
-									<h4 class="text-sm font-semibold w-44 ">IMPORTANCE OF A GREAT DEALERSHIP</h4>
-									<div class="flex flex-row items-center space-x-1">
-										<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
-										<div class="w-6 h-0.5 bg-rose-900"></div>
-									</div>
-								</div>
-				      </div>
-			        <div class="swiper-slide space-y-8">
-			        	<div class="w-full h-56 lg:h-48 xl:h-56">
-									<img src="./images/lt-pexel-2.jpeg" class="w-full h-full object-cover">
-								</div>
-								<div class="flex justify-between">
-									<h4 class="text-sm font-semibold w-44 ">IMPORTANCE OF A GREAT DEALERSHIP</h4>
-									<div class="flex flex-row items-center space-x-1">
-										<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
-										<div class="w-6 h-0.5 bg-rose-900"></div>
-									</div>
-								</div>
-			        </div>
-			        <div class="swiper-slide space-y-8">
-			        	<div class="w-full h-56 lg:h-48 xl:h-56">
-									<img src="./images/lt-pexel-3.jpg" class="w-full h-full object-cover">
-								</div>
-								<div class="flex justify-between">
-									<h4 class="text-sm font-semibold w-44">IMPORTANCE OF A GREAT DEALERSHIP</h4>
-									<div class="flex flex-row items-center space-x-1">
-										<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
-										<div class="w-6 h-0.5 bg-rose-900"></div>
-									</div>
-								</div>
-			        </div>
-			        <div class="swiper-slide space-y-8">
-			        	<div class="w-full h-56 lg:h-48 xl:h-56">
-									<img src="./images/lt-pexel-3.jpg" class="w-full h-full object-cover">
-								</div>
-								<div class="flex justify-between">
-									<h4 class="text-sm font-semibold w-44 ">IMPORTANCE OF A GREAT DEALERSHIP</h4>
-									<div class="flex flex-row items-center space-x-1">
-										<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
-										<div class="w-6 h-0.5 bg-rose-900"></div>
-									</div>
-								</div>
-			        </div>
-			        <div class="swiper-slide space-y-8">
-			        	<div class="w-full h-56 lg:h-48 xl:h-56">
-									<img src="./images/lt-pexel-3.jpg" class="w-full h-full object-cover">
-								</div>
-								<div class="flex justify-between">
-									<h4 class="text-sm font-semibold w-44">IMPORTANCE OF A GREAT DEALERSHIP</h4>
-									<div class="flex flex-row items-center space-x-1">
-										<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
-										<div class="w-6 h-0.5 bg-rose-900"></div>
-									</div>
-								</div>
-			        </div>
-			        <div class="swiper-slide space-y-8">
-			        	<div class="w-full h-56 lg:h-48 xl:h-56">
-									<img src="./images/lt-pexel-3.jpg" class="w-full h-full object-cover">
-								</div>
-								<div class="flex justify-between">
-									<h4 class="text-sm font-semibold w-44">IMPORTANCE OF A GREAT DEALERSHIP</h4>
-									<div class="flex flex-row items-center space-x-1">
-										<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
-										<div class="w-6 h-0.5 bg-rose-900"></div>
-									</div>
-								</div>
-			        </div>
-			        <div class="swiper-slide space-y-8">
-			        	<div class="w-full h-56 lg:h-48 xl:h-56">
-									<img src="./images/lt-pexel-3.jpg" class="w-full h-full object-cover">
-								</div>
-								<div class="flex justify-between">
-									<h4 class="text-sm font-semibold w-44">IMPORTANCE OF A GREAT DEALERSHIP</h4>
-									<div class="flex flex-row items-center space-x-1">
-										<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
-										<div class="w-6 h-0.5 bg-rose-900"></div>
-									</div>
-								</div>
-			        </div>
-	      		</div>
-		    	</div>
-				</div>
-		    <div class="swiper-pagination py-10"></div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Our Instagram -->
-	<section id="ig-section" class="bg-zinc-700">
-		<!-- Container -->
-		<div class="relative max-w-screen-xl mx-auto text-white">
-			<div class="px-4 py-10">
-				<div class="space-y-24">
-					<div class="flex flex-col items-center space-y-10 justify-center md:space-y-0 md:flex-row md:justify-between">
-						<div class="space-y-3">
-							<h4 class="text-sm uppercase text-center font-semibold letter-spacing-sm md:text-md md:text-left">Our Instagram</h4>
-							<p class="text-sm text-center font-light w-fit text-gray-300">Petrolhead, traveler. For our Supercar & Travel experiences.</p>
-						</div>
-						<div class="flex items-center justify-center space-x-3">
-							<div class="w-12 h-12 border-2 border-rose-900 rounded-full p-1">
-								<img src="./images/sn.jpeg" class="w-full h-full rounded-full object-cover">
-							</div>
-							<div class="w-12 h-12 border-2 border-rose-900 rounded-full p-1">
-								<img src="./images/lt-pexel-1.jpeg" class="w-full h-full rounded-full object-cover">
-							</div>
-							<div class="w-12 h-12 border-2 border-rose-900 rounded-full p-1">
-								<img src="./images/lt-pexel-2.jpeg" class="w-full h-full rounded-full object-cover">
-							</div>
-						</div>
-					</div>
-					<div class="flex flex-col items-center md:flex-row md:justify-between">
-						<div class="">
+				</nav>
+				<!-- Hero Section text -->
+				<div class="pt-80 lg:w-5/6">
+					<div class="container relative z-20 flex flex-col items-center mx-auto p-4 justify-between md:flex-row">
+						<div id="hero-header" class="text-white flex flex-col space-y-6 items-center md:w-1/2 md:items-start">
+							<h4 class="text-4xl w-min text-center uppercase font-semibold md:text-left md:text-5xl lg:w-fit letter-spacing-sm">Supercars and roadtrips</h4>
+							<p class="text-center font-thin leading-relaxed letter-spacing-sm w-1/2 md:text-left md:w-auto">Of all the experiences we have had with the supercars, some of the most memorable are the road trips.</p>
 							<button href="" class="px-6 p-3 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-rose-900">Read more</button>
 						</div>
-						<div class=" hidden flex-row items-center justify-center space-x-3 md:flex">
-							<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Watch All</a>
-							<div class="w-6 h-0.5 bg-rose-900"></div>
-						</div>
+						<div class=" hidden rounded-full text-white w-24 h-24 justify-center items-center border rotate-45 border-l-color md:flex">
+							<p class="-rotate-45">Next</p>
+						</div> 
 					</div>
 				</div>
+				
+				<!-- Right Item Design -->
+				<div class="hidden lg:block lg:w-1/6">
+					<div class="bg-zinc-700 w-8 h-vid absolute top-0 right-24"></div>
+					<div class="absolute top-80 rotate-90 -right-28 space-x-20 text-white">
+						<a href="" class="letter-spacing-sm">Facebook</a>
+						<a href="" class="letter-spacing-sm">Instagram</a>
+						<a href="" class="letter-spacing-sm">Twitter</a>
+					</div>
+					<div class="bg-zinc-700 w-8 h-vid absolute top-0 right-4"></div>
+				</div>
 			</div>
-		</div>
-	</section>
-	<footer id="footer" class="bg-zinc-300">
-		<div class="relative max-w-screen-xl mx-auto">
-			<div class="px-4 py-10">
-				<h4 class="text-sm uppercase text-center font-semibold letter-spacing-sm md:text-md md:text-left">Newsletter</h4>
-				<div class="flex flex-col space-y-8 md:flex-row md:justify-between md:space-y-0 mt-8">
-					<form action="">
-						<div class="flex flex-col space-y-10 md:flex-row md:space-x-3">
-							<input class="uppercase text-sm bg-transparent border-b-2 border-zinc-400 text-zinc-400 p-2" type="text" name="" placeholder="your email">
-							<button class="px-6 p-3 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-rose-900">Send</button>
+		</section>
+	
+		<!-- Latest Post section -->
+		<section id="latest-section" class="relative bg-neutral-200">
+			<!-- White background -->
+			<div class="bg-white absolute top-0 left-0 w-10/12 h-1/6 md:h-3/4 md:w-9/12 xl:w-8/12"></div>
+	 
+			<!-- Container -->
+			<div class="relative max-w-screen-xl mx-auto">
+				<div class="relative space-y-16 flex flex-col px-4 py-10">
+					
+					<div class= "hidden space-x-10 flex flex-row lg:w-5/6 lg:flex ">	
+						<div class="text-gray-800 font-semibold text-sm">All</div>
+						<div class="text-gray-800 font-semibold text-sm">Aston Martins</div>
+						<div class="text-gray-800 font-semibold text-sm">Bentley</div>
+						<div class="text-gray-800 font-semibold text-sm">Ferrari</div>
+						<div class="text-gray-800 font-semibold text-sm">Jaguar</div>
+						<div class="text-gray-800 font-semibold text-sm">McLaren</div>
+						<div class="text-gray-800 font-semibold text-sm">Porsche</div>
+						<div class="text-gray-800 font-semibold text-sm">SCG</div>
+						<div class="text-gray-800 font-semibold text-sm">Supercar Blogs</div>
+						<div class="text-gray-800 font-semibold text-sm">Workshop</div>
+					</div>
+	
+					<!-- Right Item Design -->
+					<div class="hidden lg:block lg:w-1/6">
+						<div class="bg-zinc-700 w-8 absolute top-8 right-24 lg:h-96"></div>
+						<div class="bg-zinc-700 w-8 absolute top-8 right-4 lg:h-96"></div>
+					</div>
+					
+					<!-- Top Content -->
+					<h4 class="text-sm uppercase text-left font-semibold letter-spacing-sm md:text-md">The Latest Posts</h4>
+				
+					<!-- Middle Content -->
+					<div class="md:flex md:flex-column md:flex-row-reverse md:justify-between space-y-4 items-center ">
+						<div class="md:w-3/4 xl:w-7/12 relative">
+							<video src="./images/vid/production.mp4" muted loop autoplay class="md:w-full"></video>
+							<div class="hidden lg:block lg:w-1/6">
+								<div class="bg-zinc-700 w-8 absolute top-0 right-20 lg:h-full"></div>
+								<div class="bg-zinc-700 w-8 absolute top-0 right-0 lg:h-full"></div>
+							</div>
 						</div>
-					</form>
-					<div class="md:flex md:flex-row-reverse md:space-x-reverse md:space-x-24 lg:space-x-reverse lg:space-x-36">
-						<div class="flex flex-col space-y-6 text-left">
-							<a href="" class="text-xs uppercase font-bold hover:border-b-4 border-rose-900">Home</a>
-							<a href="" class="text-xs uppercase font-bold hover:border-b-4 border-rose-900">About</a>
-							<a href="" class="text-xs uppercase font-bold hover:border-b-4 border-rose-900">Hotel & Restaurant</a>
-							<a href="" class="text-xs uppercase font-bold hover:border-b-4 border-rose-900">Supercar blogs</a>
-							<a href="" class="text-xs uppercase font-bold hover:border-b-4 border-rose-900">Contact</a>
-						</div>
-						<div class="flex flex-col items-center space-y-3">
-							<h4 class="text-sm uppercase text-center font-bold letter-spacing-sm md:text-md md:text-left">Social media</h4>
-							<div class="flex space-x-3">
-								<a href=""><img src="./images/icons/brandico_facebook.svg"></a>
-								<a href=""><img src="./images/icons/bxl_instagram-alt.svg"></a>
-								<a href=""><img src="./images/icons/akar-icons_twitter-fill.svg"></a>
+						<div class="space-y-6">
+							<p class="pt-10 text-gray-500 text-left text-xs font-semibold">11 Aug 2022</p>
+							<h4 class="letter-spacing-sm text-3xl uppercase font-semibold w-72 xl:w-fit">What we've experienced when travelling</h4>
+							<p class="leading-relaxed text-gray-500 w-4/5 font-light">Of all the experiences we have had with the supercars, some of the most memorable are the road trips.</p>
+							<div class="md:flex md:flex-row-reverse md:justify-between md:items-center lg:w-9/12">
+								<div class="flex space-x-3 items-center">
+									<div class="flex space-x-1">
+										<img src="./images/icons/akar-icons_star_mobile.svg">
+										<p class="text-sm font-bold">5</p>
+									</div>
+									<p class="letter-spacing-lg uppercase text-gray-500 text-sm">Rift</p>
+								</div>
+								<div class="hidden w-0.5 h-12 bg-gray-400 md:flex"></div>
+								<div class="py-8">
+									<button href="" class="px-6 p-3 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-rose-900">Read more</button>
+								</div>
 							</div>
 						</div>
 					</div>
-					<!-- Right Item Design -->
-					<div class="hidden lg:block lg:w-1/6">
-						<div class="bg-white w-8 absolute top-0 right-24 lg:h-full"></div>
-						<div class="absolute inset-y-2/4 rotate-90 right-2">
-							<a href="#hero-section" class="letter-spacing-lg uppercase text-sm font-semibold">Go to top</a>
+					<!-- Last Content -->
+					<div class="flex flex-col md:flex-row md:justify-between md:space-x-6">
+						<div class="flex flex-col justify-center items-center space-y-6 py-6 md:py-0 md:items-start">
+							<div class="w-full h-56 md:h-32 lg:h-48 xl:w-96 xl:h-56">
+								<img src="./images/lt-pexel-1.jpeg" class="w-full h-full object-cover">
+							</div>
+							<p class="text-gray-500 text-xs font-semibold">11 Aug 2022</p>
+							<h4 class="letter-spacing-sm leading-relaxed font-semibold w-1/2 text-center md:text-left md:w-3/4">MCLAREN 675LT SPIDER VS. PORSCHE 911 GT3 RS</h4>
+							<div class="flex flex-row items-center space-x-3">
+								<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
+								<div class="w-8 h-0.5 bg-rose-900"></div>
+							</div>
 						</div>
-						<div class="bg-white w-8 absolute top-0 right-4 lg:h-full"></div>
+						<div class="hidden md:flex flex-col justify-center items-center space-y-6 py-6 md:py-0 md:items-start md:mt-16">
+							<div class="w-full h-56 md:h-32 lg:h-48 xl:w-96 xl:h-56">
+								<img src="./images/lt-pexel-2.jpeg" class="w-full h-full object-cover">
+							</div>
+							<p class="text-gray-500 text-xs font-semibold">11 Aug 2022</p>
+							<h4 class="letter-spacing-sm leading-relaxed font-semibold w-1/2 text-center md:text-left md:w-3/4">MCLAREN 675LT SPIDER VS. PORSCHE 911 GT3 RS</h4>
+							<div class="flex flex-row items-center space-x-3">
+								<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
+								<div class="w-8 h-0.5 bg-rose-900"></div>
+							</div>
+						</div> 
+						<div class="hidden md:flex flex-col justify-center items-center space-y-6 py-6 md:py-0 md:items-start">
+							<div class="w-full h-56 md:h-32 lg:h-48 xl:w-96 xl:h-56">
+								<img src="./images/lt-pexel-3.jpg" class="w-full h-full object-cover">
+							</div>
+							<p class="text-gray-500 text-xs font-semibold">11 Aug 2022</p>
+							<h4 class="letter-spacing-sm leading-relaxed font-semibold w-1/2 text-center md:text-left md:w-3/4">MCLAREN 675LT SPIDER VS. PORSCHE 911 GT3 RS</h4>
+							<div class="flex flex-row items-center space-x-3">
+								<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
+								<div class="w-8 h-0.5 bg-rose-900"></div>
+							</div>
+						</div> 
 					</div>
 				</div>
-				<p class="my-10 text-center text-xs text-zinc-500 md:text-left">Copyright 2022 RIFT. All Rights Reserved</p>
 			</div>
-		</div>
-	</footer>
+		</section>
+	
+		<!-- About Section -->
+		<section id="about-section" class="relative h-about md:h-full">
+			<!-- About bg -->
+			<img src="./images/about-bg.jpeg" class="absolute top-0 left-0 w-full h-about object-cover md:h-full" alt="">
+			<!-- Background cover on bg -->
+			<div class="absolute top-0 left-0 w-full h-about bg-grad-r md:h-full"></div>
+			<!-- Container -->
+			<div class="relative max-w-screen-xl mx-auto text-white">
+				<div class="px-4 py-10">	
+					<!-- Flex Container Top -->
+					<div class="flex flex-col space-y-6 md:flex-row md:space-y-10 md:space-x-16 md:mb-6 lg:mb-12">
+						<div>
+							<h4 class="text-sm uppercase text-left font-semibold letter-spacing-sm md:text-md mb-5">About Rift</h4>			
+							<div class="w-full h-56 md:h-36 md:w-56 lg:h-48 xl:w-80">
+								<img src="./images/about-pic.jpeg" class="w-full h-full object-cover">
+							</div>
+						</div>
+						<div class="">
+							<h4 class="hidden text-sm uppercase text-left font-semibold letter-spacing-sm md:block md:text-md">Rift</h4>			
+							<p class="text-left leading-relaxed font-light w-fit text-gray-300 md:w-52 lg:w-56"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maecenas augue in fames. Vitae imperdiet sit porta non duis nunc, habitasse feugiat fermentums.</p>	
+						</div>
+					</div>
+					<!-- Second Content -->
+					<div class="hidden md:flex justify-between w-full relative">
+						<div class="">
+							<h4 class="text-sm uppercase text-left font-semibold letter-spacing-sm md:text-md mb-5">Secret supercar owners</h4>			
+							<p class="text-left letter-spacing-sm leading-relaxed font-light w-fit text-gray-300 md:w-56 lg:w-56"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maecenas augue in fames. Vitae imperdiet sit porta non duis nunc, habitasse feugiat fermentum.</p>
+						</div>
+						<div class="-space-x-20">
+							<div class="w-36 h-52 lg:w-40 lg:h-56  xl:h-60">
+								<img src="./images/abt-pic-1.jpeg" class="w-full h-full object-cover">
+							</div>
+							<div class="w-24 h-24 lg:w-28 lg:h-28 -rotate-12">
+								<img src="./images/abt-pic-2.jpeg" class="w-full h-full object-cover">
+							</div>
+						</div>
+					
+						<img src="./images/path_rate_768.svg" class="hidden absolute top-28 left-24 bottom-0 md:block lg:hidden " alt="">
+						<img src="./images/path_rate_1024.svg" class="hidden absolute top-12 left-36 bottom-0 lg:block xl:hidden" alt="">
+						<img src="./images/path_rate_lg.svg" class="hidden absolute top-14 left-20 bottom-0 xl:block" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<!-- Most Popular Section -->
+		<section id="popular-section" class="">
+	
+			<div class="relative max-w-screen-xl mx-auto">
+				<div class="px-4 py-10">
+					<h4 class="text-sm uppercase text-left font-semibold letter-spacing-sm md:text-md">The Most Popular</h4>
+	
+					<div class="py-16">
+						<!-- Swiper -->
+					<div class="swiper mySwiper">
+					  <div class="swiper-wrapper">
+						<div class="swiper-slide space-y-8">
+							<div class="w-full h-56 lg:h-48 xl:h-56">
+										<img src="./images/lt-pexel-1.jpeg" class="w-full h-full object-cover">
+									</div>
+									<div class="flex justify-between">
+										<h4 class="text-sm font-semibold w-44 ">IMPORTANCE OF A GREAT DEALERSHIP</h4>
+										<div class="flex flex-row items-center space-x-1">
+											<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
+											<div class="w-6 h-0.5 bg-rose-900"></div>
+										</div>
+									</div>
+						  </div>
+						<div class="swiper-slide space-y-8">
+							<div class="w-full h-56 lg:h-48 xl:h-56">
+										<img src="./images/lt-pexel-2.jpeg" class="w-full h-full object-cover">
+									</div>
+									<div class="flex justify-between">
+										<h4 class="text-sm font-semibold w-44 ">IMPORTANCE OF A GREAT DEALERSHIP</h4>
+										<div class="flex flex-row items-center space-x-1">
+											<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
+											<div class="w-6 h-0.5 bg-rose-900"></div>
+										</div>
+									</div>
+						</div>
+						<div class="swiper-slide space-y-8">
+							<div class="w-full h-56 lg:h-48 xl:h-56">
+										<img src="./images/lt-pexel-3.jpg" class="w-full h-full object-cover">
+									</div>
+									<div class="flex justify-between">
+										<h4 class="text-sm font-semibold w-44">IMPORTANCE OF A GREAT DEALERSHIP</h4>
+										<div class="flex flex-row items-center space-x-1">
+											<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
+											<div class="w-6 h-0.5 bg-rose-900"></div>
+										</div>
+									</div>
+						</div>
+						<div class="swiper-slide space-y-8">
+							<div class="w-full h-56 lg:h-48 xl:h-56">
+										<img src="./images/lt-pexel-3.jpg" class="w-full h-full object-cover">
+									</div>
+									<div class="flex justify-between">
+										<h4 class="text-sm font-semibold w-44 ">IMPORTANCE OF A GREAT DEALERSHIP</h4>
+										<div class="flex flex-row items-center space-x-1">
+											<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
+											<div class="w-6 h-0.5 bg-rose-900"></div>
+										</div>
+									</div>
+						</div>
+						<div class="swiper-slide space-y-8">
+							<div class="w-full h-56 lg:h-48 xl:h-56">
+										<img src="./images/lt-pexel-3.jpg" class="w-full h-full object-cover">
+									</div>
+									<div class="flex justify-between">
+										<h4 class="text-sm font-semibold w-44">IMPORTANCE OF A GREAT DEALERSHIP</h4>
+										<div class="flex flex-row items-center space-x-1">
+											<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
+											<div class="w-6 h-0.5 bg-rose-900"></div>
+										</div>
+									</div>
+						</div>
+						<div class="swiper-slide space-y-8">
+							<div class="w-full h-56 lg:h-48 xl:h-56">
+										<img src="./images/lt-pexel-3.jpg" class="w-full h-full object-cover">
+									</div>
+									<div class="flex justify-between">
+										<h4 class="text-sm font-semibold w-44">IMPORTANCE OF A GREAT DEALERSHIP</h4>
+										<div class="flex flex-row items-center space-x-1">
+											<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
+											<div class="w-6 h-0.5 bg-rose-900"></div>
+										</div>
+									</div>
+						</div>
+						<div class="swiper-slide space-y-8">
+							<div class="w-full h-56 lg:h-48 xl:h-56">
+										<img src="./images/lt-pexel-3.jpg" class="w-full h-full object-cover">
+									</div>
+									<div class="flex justify-between">
+										<h4 class="text-sm font-semibold w-44">IMPORTANCE OF A GREAT DEALERSHIP</h4>
+										<div class="flex flex-row items-center space-x-1">
+											<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Read More</a>
+											<div class="w-6 h-0.5 bg-rose-900"></div>
+										</div>
+									</div>
+						</div>
+					  </div>
+					</div>
+					</div>
+				<div class="swiper-pagination py-10"></div>
+				</div>
+			</div>
+		</section>
+	
+		<!-- Our Instagram -->
+		<section id="ig-section" class="bg-zinc-700">
+			<!-- Container -->
+			<div class="relative max-w-screen-xl mx-auto text-white">
+				<div class="px-4 py-10">
+					<div class="space-y-24">
+						<div class="flex flex-col items-center space-y-10 justify-center md:space-y-0 md:flex-row md:justify-between">
+							<div class="space-y-3">
+								<h4 class="text-sm uppercase text-center font-semibold letter-spacing-sm md:text-md md:text-left">Our Instagram</h4>
+								<p class="text-sm text-center font-light w-fit text-gray-300">Petrolhead, traveler. For our Supercar & Travel experiences.</p>
+							</div>
+							<div class="flex items-center justify-center space-x-3">
+								<div class="w-12 h-12 border-2 border-rose-900 rounded-full p-1">
+									<img src="./images/sn.jpeg" class="w-full h-full rounded-full object-cover">
+								</div>
+								<div class="w-12 h-12 border-2 border-rose-900 rounded-full p-1">
+									<img src="./images/lt-pexel-1.jpeg" class="w-full h-full rounded-full object-cover">
+								</div>
+								<div class="w-12 h-12 border-2 border-rose-900 rounded-full p-1">
+									<img src="./images/lt-pexel-2.jpeg" class="w-full h-full rounded-full object-cover">
+								</div>
+							</div>
+						</div>
+						<div class="flex flex-col items-center md:flex-row md:justify-between">
+							<div class="">
+								<button href="" class="px-6 p-3 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-rose-900">Read more</button>
+							</div>
+							<div class=" hidden flex-row items-center justify-center space-x-3 md:flex">
+								<a href="" class="letter-spacing-sm text-xs uppercase font-semibold letter-spacing-lg">Watch All</a>
+								<div class="w-6 h-0.5 bg-rose-900"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<footer id="footer" class="bg-zinc-300">
+			<div class="relative max-w-screen-xl mx-auto">
+				<div class="px-4 py-10">
+					<h4 class="text-sm uppercase text-center font-semibold letter-spacing-sm md:text-md md:text-left">Newsletter</h4>
+					<div class="flex flex-col space-y-8 md:flex-row md:justify-between md:space-y-0 mt-8">
+						<form action="">
+							<div class="flex flex-col space-y-10 md:flex-row md:space-x-3">
+								<input class="uppercase text-sm bg-transparent border-b-2 border-zinc-400 text-zinc-400 p-2" type="text" name="" placeholder="your email">
+								<button class="px-6 p-3 bg-main-color text-btn-color text-xs text-orange-100 uppercase font-semibold letter-spacing-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-rose-900">Send</button>
+							</div>
+						</form>
+						<div class="md:flex md:flex-row-reverse md:space-x-reverse md:space-x-24 lg:space-x-reverse lg:space-x-36">
+							<div class="flex flex-col space-y-6 text-left">
+								<a href="" class="text-xs uppercase font-bold hover:border-b-4 border-rose-900">Home</a>
+								<a href="" class="text-xs uppercase font-bold hover:border-b-4 border-rose-900">About</a>
+								<a href="" class="text-xs uppercase font-bold hover:border-b-4 border-rose-900">Hotel & Restaurant</a>
+								<a href="" class="text-xs uppercase font-bold hover:border-b-4 border-rose-900">Supercar blogs</a>
+								<a href="" class="text-xs uppercase font-bold hover:border-b-4 border-rose-900">Contact</a>
+							</div>
+							<div class="flex flex-col items-center space-y-3">
+								<h4 class="text-sm uppercase text-center font-bold letter-spacing-sm md:text-md md:text-left">Social media</h4>
+								<div class="flex space-x-3">
+									<a href=""><img src="./images/icons/brandico_facebook.svg"></a>
+									<a href=""><img src="./images/icons/bxl_instagram-alt.svg"></a>
+									<a href=""><img src="./images/icons/akar-icons_twitter-fill.svg"></a>
+								</div>
+							</div>
+						</div>
+						<!-- Right Item Design -->
+						<div class="hidden lg:block lg:w-1/6">
+							<div class="bg-white w-8 absolute top-0 right-24 lg:h-full"></div>
+							<div class="absolute inset-y-2/4 rotate-90 right-2">
+								<a href="#hero-section" class="letter-spacing-lg uppercase text-sm font-semibold">Go to top</a>
+							</div>
+							<div class="bg-white w-8 absolute top-0 right-4 lg:h-full"></div>
+						</div>
+					</div>
+					<p class="my-10 text-center text-xs text-zinc-500 md:text-left">Copyright 2022 RIFT. All Rights Reserved</p>
+				</div>
+			</div>
+		</footer>
+	</div>
 	
 	<!-- script -->
 	<script type="text/javascript" src="./js/index.js"></script>
 	<script type="text/javascript" src="./js/jquery.js"></script>
 	<script type="text/javascript" src="./js/luxy.js"></script>
+	<script type="text/javascript">
+		ScrollOut({
+			targets: "#hero-header"
+			// once: true
+		});
+	</script>
 	<script>
 		luxy.init({
 			wrapper: '#luxy',
-			wrapperSpeed:  0.08
+			wrapperSpeed:  0.095
 		});
 	</script>
 	<script type="text/javascript" src="./js/swiper-bundle.js"></script>

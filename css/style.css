@@ -1441,3 +1441,24 @@ video {
   }
 }
 
+<<<<<<< HEAD
+=======
+
+/* 
+[data-scroll]{
+  transition:  all 1s;
+}
+
+#hero-header[data-scroll="in"]{
+  transition: 1s;
+  transform:  translateY(1600px);
+  opacity:  1;
+}
+
+#hero-header[data-scroll="out"]{
+  transition: 1s;
+  transform:  translateY(0px);
+  opacity:  0;
+} */
+
+>>>>>>> 20de52af3103cfc373a91c93768cf87ece896110
